@@ -15,7 +15,6 @@ function createNew(size){
     cont.classList.toggle("cont");
     container.appendChild(cont);
 }
-
 createNew(16);
 const allPixels = document.querySelectorAll(".eachPixel");
 allPixels.forEach(eachPixel => {
@@ -24,5 +23,12 @@ allPixels.forEach(eachPixel => {
         eachPixel.classList.add("eachPixelEvent");
     })
 });
+const clearBtn = document.querySelector(".clearButton");
+clearBtn.addEventListener("click", () => {
+    allPixels.forEach(eachPixel => {
+        eachPixel.classList.remove("eachPixelEvent");
+        eachPixel.classList.add("eachPixel");
+    });
+})
 
 
