@@ -1,0 +1,20 @@
+.eachPixel{
+    background-color: white;
+    width: 500px;
+}
+.eachPixelEvent{
+    background-color: grey;
+    width: 500px;
+}
+.pixelRow{
+    display: flex;
+    flex:auto;
+    width: 500px;
+}
+.cont{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+}
