@@ -16,5 +16,33 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    border: solid black;
+    border: solid grey;
+    border-width: 20px;
+    border-radius: 4%;
+}
+.outerCont{
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+html{
+    background-color: rgb(0, 140, 255);
+}
+.clearButton{
+    margin-bottom: 50px; 
+}
+button{
+    background-color: rgb(226, 218, 144);
+    border-style: solid;
+    border-color: rgb(226, 218, 144);
+    padding: 20px;
+    width: 150px;
+    border-radius: 500px;
 }
